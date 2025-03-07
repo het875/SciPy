@@ -1,0 +1,68 @@
+What is SciPy?
+    SciPy is a scientific computation library that uses NumPy underneath.
+
+    SciPy stands for Scientific Python.
+
+    It provides more utility functions for optimization, stats and signal processing.
+
+    Like NumPy, SciPy is open source so we can use it freely.
+
+    SciPy was created by NumPy's creator Travis Olliphant.
+
+📌 1️⃣ What is SciPy?
+SciPy extends NumPy and provides additional functionality for:
+    ✅ Mathematical Functions (e.g., integrals, derivatives)
+    ✅ Linear Algebra (e.g., solving equations, eigenvalues)
+    ✅ Optimization (e.g., finding min/max values of functions)
+    ✅ Statistics (e.g., distributions, hypothesis testing)
+    ✅ Signal Processing (e.g., filters, Fourier transforms)
+    ✅ Interpolation (e.g., smooth curves between data points)
+
+
+
+
+Why Use SciPy?
+        If SciPy uses NumPy underneath, why can we not just use NumPy?
+
+        SciPy has optimized and added functions that are frequently used in NumPy and Data Science.
+
+
+
+Which Language is SciPy Written in?
+    SciPy is predominantly written in Python, but a few segments are written in C.
+
+
+
+
+Installation of SciPy
+    If you have Python and PIP already installed on a system, then installation of SciPy is very easy.
+
+    Install it using this command:
+
+    C:\Users\Your Name>pip install scipy
+
+    If this command fails, then use a Python distribution that already has SciPy installed like, Anaconda, Spyder etc.
+
+
+
+Checking SciPy Version
+The version string is stored under the __version__ attribute.
+
+Example
+    import scipy
+
+    print(scipy.__version__)
+
+
+
+
+3️⃣ SciPy Modules Overview
+        SciPy Module	    Purpose
+        scipy.linalg	    Linear Algebra (Solving equations, Eigenvalues)
+        scipy.optimize	    Optimization (Finding min/max values)
+        scipy.stats	        Statistics (Mean, Median, Distributions)
+        scipy.signal	    Signal Processing (Fourier Transform, Filters)
+        scipy.integrate	    Integration (Solving integrals)
+        scipy.interpolate	Interpolation (Filling missing data)
+        scipy.sparse	    Sparse Matrices (Memory-efficient storage)
+        
